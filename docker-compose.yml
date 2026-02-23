@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "9002:9002"
+    volumes:
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+    environment:
+      # Use https://cms.aspune.cloud for production or http://localhost:9002 for local testing
+      - MEDIA_BASE_URL=https://cms.aspune.cloud
+      - CORS_ORIGINS=https://cms.aspune.cloud,http://localhost:9002
+    restart: always
+
