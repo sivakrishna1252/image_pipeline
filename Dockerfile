@@ -41,4 +41,4 @@ CMD ["gunicorn", \
 
 # Healthcheck to ensure the app is responding
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:9002/ || exit 1
+  CMD curl -f http://localhost:9002/ || exit 1      #docker healthcheck
