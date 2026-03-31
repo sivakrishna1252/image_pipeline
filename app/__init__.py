@@ -8,7 +8,8 @@ from app.routes.gallery_routes import imagepipeline
 
 
 def _setup_logging() -> None:
-    Config.init_directories()
+    if logging.getLogger().handlers:
+        return
 
     formatter = logging.Formatter(
         fmt=Config.LOG_FORMAT,

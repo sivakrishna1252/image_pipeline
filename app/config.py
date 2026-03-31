@@ -1,18 +1,26 @@
 import os
 import logging
 class Config:
-    MAX_FILE_SIZE: int = 2 * 1024 * 1024          
+    MAX_FILE_SIZE: int = 50 * 1024 * 1024          
     TARGET_MIN_BYTES: int = 15  * 1024             
     TARGET_MAX_BYTES: int = 295 * 1024             
     QUALITY_FLOOR: int = 45                        
     QUALITY_MAX:   int = 95                       
+    
+    ALLOWED_IMAGE_EXTENSIONS: set = {"jpg", "jpeg", "png", "webp", "gif"}
+    ALLOWED_VIDEO_EXTENSIONS: set = {"mp4", "mov", "avi", "mkv", "webm"}
+    ALLOWED_EXTENSIONS: set = ALLOWED_IMAGE_EXTENSIONS | ALLOWED_VIDEO_EXTENSIONS
 
-    ALLOWED_EXTENSIONS: set = {"jpg", "jpeg", "png", "webp", "gif"}
     ALLOWED_MIME_TYPES: set = {
         "image/jpeg",
         "image/png",
         "image/gif",
         "image/webp",
+        "video/mp4",
+        "video/quicktime",
+        "video/x-msvideo",
+        "video/x-matroska",
+        "video/webm"
     }
 
     _BASE_DIR: str   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,7 +30,7 @@ class Config:
     # CORS Settings
     CORS_ORIGINS: list = os.getenv("CORS_ORIGINS", "*").split(",")
 
-    MEDIA_BASE_URL: str   = os.getenv("MEDIA_BASE_URL", "http://localhost:9002")
+    MEDIA_BASE_URL: str   = os.getenv("MEDIA_BASE_URL", "http://localhost:8703")
     MEDIA_URL_PREFIX: str = "/media"
 
     LOG_FILE: str         = os.path.join(_BASE_DIR, "logs", "app.log")

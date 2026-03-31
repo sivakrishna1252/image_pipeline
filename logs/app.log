@@ -634,3 +634,172 @@ ValueError: not enough values to unpack (expected 4, got 3)
 2026-02-23 11:52:43 | INFO     | werkzeug |  * Restarting with stat
 2026-02-23 11:52:43 | WARNING  | werkzeug |  * Debugger is active!
 2026-02-23 11:52:43 | INFO     | werkzeug |  * Debugger PIN: 354-184-816
+2026-03-09 16:06:26 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-09 16:06:26 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-09 16:06:26 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:06:26 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:06:26 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:06:32 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:06:32] "GET / HTTP/1.1" 200 -
+2026-03-09 16:06:32 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:06:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-09 16:09:10 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\app\\config.py', reloading
+2026-03-09 16:09:10 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:09:11 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:09:11 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:09:13 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\app\\config.py', reloading
+2026-03-09 16:09:13 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:09:13 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:09:13 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:09:14 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\app\\config.py', reloading
+2026-03-09 16:09:15 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:09:15 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:09:15 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:09:25 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-09 16:09:25 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-09 16:09:25 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:09:25 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:09:25 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:09:54 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\run.py', reloading
+2026-03-09 16:09:54 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:09:54 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:09:54 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:09:56 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\run.py', reloading
+2026-03-09 16:09:56 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:10:10 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8703
+2026-03-09 16:10:10 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-09 16:10:10 | INFO     | werkzeug |  * Restarting with stat
+2026-03-09 16:10:10 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-09 16:10:10 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-09 16:10:18 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:10:18] "GET / HTTP/1.1" 200 -
+2026-03-09 16:10:18 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:10:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-09 16:31:52 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=your-website-uuid | source=file=usha dairy promotion.png | replace=none
+2026-03-09 16:31:52 | INFO     | app.validators.image_validator | Received file 'usha dairy promotion.png' → size=2176.72 KB (2.1257 MB)
+2026-03-09 16:31:52 | WARNING  | app.validators.image_validator | Rejected file 'usha dairy promotion.png': File size 2.13 MB exceeds the 2 MB limit. Please upload a smaller image.
+2026-03-09 16:31:52 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:31:52] "[31m[1mPUT /gallery HTTP/1.1[0m" 400 -
+2026-03-09 16:38:16 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=your-website-uuid | source=file=blog1.jpg | replace=none
+2026-03-09 16:38:16 | INFO     | app.validators.image_validator | Received file 'blog1.jpg' → size=401.88 KB (0.3925 MB)
+2026-03-09 16:38:16 | INFO     | app.validators.image_validator | Validated file 'blog1.jpg' → 1280×1024 px, 401.88 KB
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline | Compression START | original=401.88 KB | 1280x1024
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline |   Resolution Cap → 1.31 MP → max_dim=1000 px
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline |   Resolution resize → 1280x1024 → 1000x800
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=75
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline | Compression END | final=105.94 KB | reduction=73.6%
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\your-website-uuid\your-website-uuid_1773054496902.webp (108482 bytes)
+2026-03-09 16:38:16 | INFO     | app.services.gallery_service | ADDED | website_id=your-website-uuid | file=your-website-uuid_1773054496902.webp | size=105.94 KB | url=http://localhost:8703/media/your-website-uuid/your-website-uuid_1773054496902.webp
+2026-03-09 16:38:16 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:38:16] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:38:16 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=your-website-uuid | source=file=blog2.png | replace=none
+2026-03-09 16:38:16 | INFO     | app.validators.image_validator | Received file 'blog2.png' → size=752.02 KB (0.7344 MB)
+2026-03-09 16:38:16 | INFO     | app.validators.image_validator | Validated file 'blog2.png' → 960×600 px, 752.02 KB
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline | Compression START | original=752.02 KB | 960x600
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline |   Resolution Cap → 0.58 MP → keep original
+2026-03-09 16:38:16 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=70
+2026-03-09 16:38:17 | INFO     | app.utils.image_pipeline | Compression END | final=50.01 KB | reduction=93.3%
+2026-03-09 16:38:17 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\your-website-uuid\your-website-uuid_1773054497127.webp (51214 bytes)
+2026-03-09 16:38:17 | INFO     | app.services.gallery_service | ADDED | website_id=your-website-uuid | file=your-website-uuid_1773054497127.webp | size=50.01 KB | url=http://localhost:8703/media/your-website-uuid/your-website-uuid_1773054497127.webp
+2026-03-09 16:38:17 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:38:17] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:41:33 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | source=file=blog1.jpg | replace=none
+2026-03-09 16:41:33 | INFO     | app.validators.image_validator | Received file 'blog1.jpg' → size=401.88 KB (0.3925 MB)
+2026-03-09 16:41:33 | INFO     | app.validators.image_validator | Validated file 'blog1.jpg' → 1280×1024 px, 401.88 KB
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Compression START | original=401.88 KB | 1280x1024
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline |   Resolution Cap → 1.31 MP → max_dim=1000 px
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline |   Resolution resize → 1280x1024 → 1000x800
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=75
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Compression END | final=105.94 KB | reduction=73.6%
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82\577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp (108482 bytes)
+2026-03-09 16:41:33 | INFO     | app.services.gallery_service | ADDED | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | file=577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp | size=105.94 KB | url=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp
+2026-03-09 16:41:33 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:41:33] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:41:33 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | source=file=blog2.png | replace=none
+2026-03-09 16:41:33 | INFO     | app.validators.image_validator | Received file 'blog2.png' → size=752.02 KB (0.7344 MB)
+2026-03-09 16:41:33 | INFO     | app.validators.image_validator | Validated file 'blog2.png' → 960×600 px, 752.02 KB
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Compression START | original=752.02 KB | 960x600
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline |   Resolution Cap → 0.58 MP → keep original
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=70
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Compression END | final=50.01 KB | reduction=93.3%
+2026-03-09 16:41:33 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82\577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp (51214 bytes)
+2026-03-09 16:41:33 | INFO     | app.services.gallery_service | ADDED | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | file=577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp | size=50.01 KB | url=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp
+2026-03-09 16:41:33 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:41:33] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:42:43 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | source=file=blog2.png | replace=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp
+2026-03-09 16:42:43 | INFO     | app.validators.image_validator | Received file 'blog2.png' → size=752.02 KB (0.7344 MB)
+2026-03-09 16:42:43 | INFO     | app.validators.image_validator | Validated file 'blog2.png' → 960×600 px, 752.02 KB
+2026-03-09 16:42:43 | INFO     | app.services.gallery_service | Targeted replacement: deleting 577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp
+2026-03-09 16:42:43 | INFO     | app.utils.image_pipeline | Deleted file → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693684.webp
+2026-03-09 16:42:43 | INFO     | app.utils.image_pipeline | Compression START | original=752.02 KB | 960x600
+2026-03-09 16:42:43 | INFO     | app.utils.image_pipeline |   Resolution Cap → 0.58 MP → keep original
+2026-03-09 16:42:43 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=70
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Compression END | final=50.01 KB | reduction=93.3%
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82\577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764145.webp (51214 bytes)
+2026-03-09 16:42:44 | INFO     | app.services.gallery_service | REPLACED | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | file=577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764145.webp | size=50.01 KB | url=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764145.webp
+2026-03-09 16:42:44 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:42:44] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:42:44 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | source=file=blog1.jpg | replace=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp
+2026-03-09 16:42:44 | INFO     | app.validators.image_validator | Received file 'blog1.jpg' → size=401.88 KB (0.3925 MB)
+2026-03-09 16:42:44 | INFO     | app.validators.image_validator | Validated file 'blog1.jpg' → 1280×1024 px, 401.88 KB
+2026-03-09 16:42:44 | INFO     | app.services.gallery_service | Targeted replacement: deleting 577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Deleted file → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054693896.webp
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Compression START | original=401.88 KB | 1280x1024
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline |   Resolution Cap → 1.31 MP → max_dim=1000 px
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline |   Resolution resize → 1280x1024 → 1000x800
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=75
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Compression END | final=105.94 KB | reduction=73.6%
+2026-03-09 16:42:44 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82\577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764487.webp (108482 bytes)
+2026-03-09 16:42:44 | INFO     | app.services.gallery_service | REPLACED | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | file=577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764487.webp | size=105.94 KB | url=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773054764487.webp
+2026-03-09 16:42:44 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:42:44] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:48:40 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=1d0efd04-f649-422e-8d48-a3f785c72453 | source=file=blog2.png | replace=none
+2026-03-09 16:48:40 | INFO     | app.validators.image_validator | Received file 'blog2.png' → size=752.02 KB (0.7344 MB)
+2026-03-09 16:48:40 | INFO     | app.validators.image_validator | Validated file 'blog2.png' → 960×600 px, 752.02 KB
+2026-03-09 16:48:40 | INFO     | app.utils.image_pipeline | Compression START | original=752.02 KB | 960x600
+2026-03-09 16:48:40 | INFO     | app.utils.image_pipeline |   Resolution Cap → 0.58 MP → keep original
+2026-03-09 16:48:40 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=70
+2026-03-09 16:48:40 | INFO     | app.utils.image_pipeline | Compression END | final=50.01 KB | reduction=93.3%
+2026-03-09 16:48:40 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\1d0efd04-f649-422e-8d48-a3f785c72453\1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp (51214 bytes)
+2026-03-09 16:48:40 | INFO     | app.services.gallery_service | ADDED | website_id=1d0efd04-f649-422e-8d48-a3f785c72453 | file=1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp | size=50.01 KB | url=http://localhost:8703/media/1d0efd04-f649-422e-8d48-a3f785c72453/1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp
+2026-03-09 16:48:40 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:48:40] "PUT /gallery HTTP/1.1" 200 -
+2026-03-09 16:49:35 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=1d0efd04-f649-422e-8d48-a3f785c72453 | source=file=blog1.jpg | replace=http://localhost:8703/media/1d0efd04-f649-422e-8d48-a3f785c72453/1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp
+2026-03-09 16:49:35 | INFO     | app.validators.image_validator | Received file 'blog1.jpg' → size=401.88 KB (0.3925 MB)
+2026-03-09 16:49:35 | INFO     | app.validators.image_validator | Validated file 'blog1.jpg' → 1280×1024 px, 401.88 KB
+2026-03-09 16:49:35 | INFO     | app.services.gallery_service | Targeted replacement: deleting 1d0efd04-f649-422e-8d48-a3f785c72453/1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline | Deleted file → C:\Users\dell\Documents\CMS\image_pipeline\storage\1d0efd04-f649-422e-8d48-a3f785c72453/1d0efd04-f649-422e-8d48-a3f785c72453_1773055120518.webp
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline | Compression START | original=401.88 KB | 1280x1024
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline |   Resolution Cap → 1.31 MP → max_dim=1000 px
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline |   Resolution resize → 1280x1024 → 1000x800
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=75
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline | Compression END | final=105.94 KB | reduction=73.6%
+2026-03-09 16:49:35 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\1d0efd04-f649-422e-8d48-a3f785c72453\1d0efd04-f649-422e-8d48-a3f785c72453_1773055175843.webp (108482 bytes)
+2026-03-09 16:49:35 | INFO     | app.services.gallery_service | REPLACED | website_id=1d0efd04-f649-422e-8d48-a3f785c72453 | file=1d0efd04-f649-422e-8d48-a3f785c72453_1773055175843.webp | size=105.94 KB | url=http://localhost:8703/media/1d0efd04-f649-422e-8d48-a3f785c72453/1d0efd04-f649-422e-8d48-a3f785c72453_1773055175843.webp
+2026-03-09 16:49:35 | INFO     | werkzeug | 127.0.0.1 - - [09/Mar/2026 16:49:35] "PUT /gallery HTTP/1.1" 200 -
+2026-03-10 09:37:57 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8703
+2026-03-10 09:37:57 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-10 09:37:57 | INFO     | werkzeug |  * Restarting with stat
+2026-03-10 09:37:58 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-10 09:37:58 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-13 13:19:13 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8703
+2026-03-13 13:19:13 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-13 13:19:13 | INFO     | werkzeug |  * Restarting with stat
+2026-03-13 13:19:14 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-13 13:19:14 | INFO     | werkzeug |  * Debugger PIN: 143-837-115
+2026-03-13 13:19:24 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | source=file=goatmilk.jpg | replace=none
+2026-03-13 13:19:24 | INFO     | app.validators.image_validator | Received file 'goatmilk.jpg' → size=6.95 KB (0.0068 MB)
+2026-03-13 13:19:24 | INFO     | app.validators.image_validator | Validated file 'goatmilk.jpg' → 223×148 px, 6.95 KB
+2026-03-13 13:19:24 | INFO     | app.utils.image_pipeline | Compression START | original=6.95 KB | 223x148
+2026-03-13 13:19:24 | INFO     | app.utils.image_pipeline |   Resolution Cap → 0.03 MP → keep original
+2026-03-13 13:19:24 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=80
+2026-03-13 13:19:25 | INFO     | app.utils.image_pipeline |   Small size detected → bumping quality to 85 (size: 5.45 KB)
+2026-03-13 13:19:25 | INFO     | app.utils.image_pipeline |   Small size detected → bumping quality to 90 (size: 6.77 KB)
+2026-03-13 13:19:25 | INFO     | app.utils.image_pipeline |   Small size detected → bumping quality to 95 (size: 8.62 KB)
+2026-03-13 13:19:25 | INFO     | app.utils.image_pipeline | Compression END | final=8.62 KB | reduction=-24.2%
+2026-03-13 13:19:25 | INFO     | app.utils.image_pipeline | Saved image → C:\Users\dell\Documents\CMS\image_pipeline\storage\577d9fd9-f8c4-460e-ac9c-537609992f82\577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp (8832 bytes)
+2026-03-13 13:19:25 | INFO     | app.services.gallery_service | ADDED | website_id=577d9fd9-f8c4-460e-ac9c-537609992f82 | file=577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp | size=8.62 KB | url=http://localhost:8703/media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp
+2026-03-13 13:19:25 | INFO     | werkzeug | 127.0.0.1 - - [13/Mar/2026 13:19:25] "PUT /gallery HTTP/1.1" 200 -
+2026-03-13 13:19:32 | INFO     | werkzeug | 127.0.0.1 - - [13/Mar/2026 13:19:32] "GET /media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp HTTP/1.1" 200 -
+2026-03-13 13:19:44 | INFO     | werkzeug | 127.0.0.1 - - [13/Mar/2026 13:19:44] "[36mGET /media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp HTTP/1.1[0m" 304 -
+2026-03-13 13:20:02 | INFO     | werkzeug | 127.0.0.1 - - [13/Mar/2026 13:20:02] "GET /media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp HTTP/1.1" 200 -
+2026-03-13 13:20:11 | INFO     | werkzeug | 127.0.0.1 - - [13/Mar/2026 13:20:11] "[36mGET /media/577d9fd9-f8c4-460e-ac9c-537609992f82/577d9fd9-f8c4-460e-ac9c-537609992f82_1773388165409.webp HTTP/1.1[0m" 304 -
+2026-03-20 18:56:51 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8703
+2026-03-20 18:56:51 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-03-20 18:56:51 | INFO     | werkzeug |  * Restarting with stat
+2026-03-20 18:56:51 | WARNING  | werkzeug |  * Debugger is active!
+2026-03-20 18:56:51 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
