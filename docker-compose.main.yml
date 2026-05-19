@@ -1,21 +1,20 @@
 services:
   web:
     build: .
-    container_name: cms_image_pipeline_dev
+    container_name: cms_image_pipeline_main
     environment:
-      PORT: 9013
+      PORT: 9003
     ports:
-      - "9013:9013"
+      - "9003:9003"
     volumes:
       - ./storage:/app/storage
       - ./logs:/app/logs
     env_file:
-      - ${ENV_FILE:-.env.dev}
+      - ${ENV_FILE:-.env.main}
     networks:
       - cms
     restart: unless-stopped
 
 networks:
   cms:
-    name: cms_dev
-
+    name: cms_main
