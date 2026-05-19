@@ -9,7 +9,7 @@ imagepipeline = Blueprint("imagepipeline", __name__)
 # Health check
 @imagepipeline.route("/", methods=["GET"])
 def health_check():
-    return "winter is coming"
+    return "image pipeline is running-cms"
 
 
 
