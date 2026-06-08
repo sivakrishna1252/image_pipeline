@@ -2,6 +2,7 @@ import logging
 import os
 import tempfile
 import subprocess
+import shutil
 from io import BytesIO
 from PIL import Image
 from app.config import Config
@@ -143,9 +144,13 @@ def compress_video(raw_bytes: bytes, filename: str) -> tuple[bytes, dict]:
     output_name = input_name + ".mp4"
 
     try:
+        ffmpeg_cmd = shutil.which("ffmpeg")
+        if not ffmpeg_cmd:
+            ffmpeg_cmd = r"C:\Users\dell\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.exe"
+
         # ffmpeg -i input -vcodec libx264 -crf 28 -preset fast -y output
         command = [
-            "ffmpeg", "-i", input_name, 
+            ffmpeg_cmd, "-i", input_name, 
             "-vcodec", "libx264", "-crf", "28", 
             "-preset", "fast", 
             "-acodec", "aac", "-strict", "experimental",
