@@ -803,3 +803,143 @@ ValueError: not enough values to unpack (expected 4, got 3)
 2026-03-20 18:56:51 | INFO     | werkzeug |  * Restarting with stat
 2026-03-20 18:56:51 | WARNING  | werkzeug |  * Debugger is active!
 2026-03-20 18:56:51 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 12:25:44 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8703
+ * Running on http://192.168.1.118:8703
+2026-06-08 12:25:44 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-06-08 12:25:44 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 12:25:44 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 12:25:44 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 12:31:15 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8703
+ * Running on http://192.168.1.118:8703
+2026-06-08 12:31:15 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-06-08 12:31:15 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 12:31:16 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 12:31:16 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 12:32:33 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | source=file=Screenshot (1).png | replace=none
+2026-06-08 12:32:33 | INFO     | app.validators.image_validator | Received file 'Screenshot (1).png' → size=259.82 KB (0.2537 MB)
+2026-06-08 12:32:33 | INFO     | app.validators.image_validator | Validated IMAGE file 'Screenshot (1).png' → 1920x1080 px, 259.82 KB
+2026-06-08 12:32:33 | INFO     | app.utils.image_pipeline | Compression START | original=259.82 KB | 1920x1080
+2026-06-08 12:32:33 | INFO     | app.utils.image_pipeline |   Resolution Cap → 2.07 MP → max_dim=1200 px
+2026-06-08 12:32:33 | INFO     | app.utils.image_pipeline |   Resolution resize → 1920x1080 → 1200x675
+2026-06-08 12:32:33 | INFO     | app.utils.image_pipeline |   Quality Map → initial quality=80
+2026-06-08 12:32:34 | INFO     | app.utils.image_pipeline | Compression END | final=51.69 KB | reduction=80.1%
+2026-06-08 12:32:34 | INFO     | app.utils.image_pipeline | Saved media → C:\Users\dell\Documents\CMS\image_pipeline\storage\2d07396d-3da5-43d6-94fa-55ea38625cfc\2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp (52934 bytes)
+2026-06-08 12:32:34 | INFO     | app.services.gallery_service | ADDED | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | file=2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp | size=51.69 KB | url=http://localhost:8703/media/2d07396d-3da5-43d6-94fa-55ea38625cfc/2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp
+2026-06-08 12:32:34 | INFO     | werkzeug | 192.168.1.118 - - [08/Jun/2026 12:32:34] "PUT /gallery HTTP/1.1" 200 -
+2026-06-08 12:33:07 | INFO     | werkzeug | 127.0.0.1 - - [08/Jun/2026 12:33:07] "GET /media/2d07396d-3da5-43d6-94fa-55ea38625cfc/2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp HTTP/1.1" 200 -
+2026-06-08 12:33:24 | INFO     | werkzeug | 127.0.0.1 - - [08/Jun/2026 12:33:24] "GET /media/2d07396d-3da5-43d6-94fa-55ea38625cfc/2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp HTTP/1.1" 200 -
+2026-06-08 12:33:28 | INFO     | werkzeug | 127.0.0.1 - - [08/Jun/2026 12:33:28] "GET /media/2d07396d-3da5-43d6-94fa-55ea38625cfc/2d07396d-3da5-43d6-94fa-55ea38625cfc_1780902154414.webp HTTP/1.1" 200 -
+2026-06-08 14:55:21 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8703
+ * Running on http://192.168.1.118:8703
+2026-06-08 14:55:21 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-06-08 14:55:21 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 14:55:21 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 14:55:21 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 15:14:34 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | source=file=Screen Recording 2026-06-08 104903.mp4 | replace=none
+2026-06-08 15:14:34 | INFO     | app.validators.image_validator | Received file 'Screen Recording 2026-06-08 104903.mp4' → size=12539.77 KB (12.2459 MB)
+2026-06-08 15:14:34 | INFO     | app.validators.image_validator | Video detected: Screen Recording 2026-06-08 104903.mp4
+2026-06-08 15:14:34 | INFO     | app.validators.image_validator | Validated VIDEO file 'Screen Recording 2026-06-08 104903.mp4' → N/A px, 12539.77 KB
+2026-06-08 15:14:34 | INFO     | app.utils.image_pipeline | Video Compression START | original=12.25 MB
+2026-06-08 15:14:35 | INFO     | app.utils.image_pipeline | Executing video compression: ffmpeg -i C:\Users\dell\AppData\Local\Temp\tmpg4p5_c53.tmp -vcodec libx264 -crf 28 -preset fast -acodec aac -strict experimental -y C:\Users\dell\AppData\Local\Temp\tmpg4p5_c53.tmp.mp4
+2026-06-08 15:14:35 | ERROR    | app.services.gallery_service | Media processing failed: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\services\gallery_service.py", line 103, in upload_image
+    processed_bytes, metrics = compress_video(raw_bytes, filename)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\utils\image_pipeline.py", line 156, in compress_video
+    process = subprocess.run(command, capture_output=True, text=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-06-08 15:14:35 | INFO     | werkzeug | 192.168.1.118 - - [08/Jun/2026 15:14:35] "[31m[1mPUT /gallery HTTP/1.1[0m" 400 -
+2026-06-08 15:42:28 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8703
+ * Running on http://192.168.1.118:8703
+2026-06-08 15:42:28 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-06-08 15:42:28 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 15:42:28 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 15:42:28 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 15:42:46 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | source=file=Screen Recording 2026-06-08 104903.mp4 | replace=none
+2026-06-08 15:42:46 | INFO     | app.validators.image_validator | Received file 'Screen Recording 2026-06-08 104903.mp4' → size=12539.77 KB (12.2459 MB)
+2026-06-08 15:42:46 | INFO     | app.validators.image_validator | Video detected: Screen Recording 2026-06-08 104903.mp4
+2026-06-08 15:42:46 | INFO     | app.validators.image_validator | Validated VIDEO file 'Screen Recording 2026-06-08 104903.mp4' → N/A px, 12539.77 KB
+2026-06-08 15:42:46 | INFO     | app.utils.image_pipeline | Video Compression START | original=12.25 MB
+2026-06-08 15:42:46 | INFO     | app.utils.image_pipeline | Executing video compression: ffmpeg -i C:\Users\dell\AppData\Local\Temp\tmps2p0sv8k.tmp -vcodec libx264 -crf 28 -preset fast -acodec aac -strict experimental -y C:\Users\dell\AppData\Local\Temp\tmps2p0sv8k.tmp.mp4
+2026-06-08 15:42:46 | ERROR    | app.services.gallery_service | Media processing failed: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\services\gallery_service.py", line 103, in upload_image
+    processed_bytes, metrics = compress_video(raw_bytes, filename)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\utils\image_pipeline.py", line 156, in compress_video
+    process = subprocess.run(command, capture_output=True, text=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-06-08 15:42:46 | INFO     | werkzeug | 192.168.1.118 - - [08/Jun/2026 15:42:46] "[31m[1mPUT /gallery HTTP/1.1[0m" 400 -
+2026-06-08 15:49:22 | INFO     | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8703
+ * Running on http://192.168.1.118:8703
+2026-06-08 15:49:22 | INFO     | werkzeug | [33mPress CTRL+C to quit[0m
+2026-06-08 15:49:22 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 15:49:22 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 15:49:22 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 15:49:29 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | source=file=Screen Recording 2026-06-08 104903.mp4 | replace=none
+2026-06-08 15:49:29 | INFO     | app.validators.image_validator | Received file 'Screen Recording 2026-06-08 104903.mp4' → size=12539.77 KB (12.2459 MB)
+2026-06-08 15:49:29 | INFO     | app.validators.image_validator | Video detected: Screen Recording 2026-06-08 104903.mp4
+2026-06-08 15:49:29 | INFO     | app.validators.image_validator | Validated VIDEO file 'Screen Recording 2026-06-08 104903.mp4' → N/A px, 12539.77 KB
+2026-06-08 15:49:29 | INFO     | app.utils.image_pipeline | Video Compression START | original=12.25 MB
+2026-06-08 15:49:29 | INFO     | app.utils.image_pipeline | Executing video compression: ffmpeg -i C:\Users\dell\AppData\Local\Temp\tmpax5hek_e.tmp -vcodec libx264 -crf 28 -preset fast -acodec aac -strict experimental -y C:\Users\dell\AppData\Local\Temp\tmpax5hek_e.tmp.mp4
+2026-06-08 15:49:29 | ERROR    | app.services.gallery_service | Media processing failed: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\services\gallery_service.py", line 103, in upload_image
+    processed_bytes, metrics = compress_video(raw_bytes, filename)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\Documents\CMS\image_pipeline\app\utils\image_pipeline.py", line 156, in compress_video
+    process = subprocess.run(command, capture_output=True, text=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-06-08 15:49:29 | INFO     | werkzeug | 192.168.1.118 - - [08/Jun/2026 15:49:29] "[31m[1mPUT /gallery HTTP/1.1[0m" 400 -
+2026-06-08 15:51:08 | INFO     | werkzeug |  * Detected change in 'C:\\Users\\dell\\Documents\\CMS\\image_pipeline\\app\\utils\\image_pipeline.py', reloading
+2026-06-08 15:51:08 | INFO     | werkzeug |  * Restarting with stat
+2026-06-08 15:51:08 | WARNING  | werkzeug |  * Debugger is active!
+2026-06-08 15:51:08 | INFO     | werkzeug |  * Debugger PIN: 100-226-961
+2026-06-08 15:52:18 | INFO     | app.routes.gallery_routes | PUT /gallery | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | source=file=Screen Recording 2026-06-08 104903.mp4 | replace=none
+2026-06-08 15:52:18 | INFO     | app.validators.image_validator | Received file 'Screen Recording 2026-06-08 104903.mp4' → size=12539.77 KB (12.2459 MB)
+2026-06-08 15:52:18 | INFO     | app.validators.image_validator | Video detected: Screen Recording 2026-06-08 104903.mp4
+2026-06-08 15:52:18 | INFO     | app.validators.image_validator | Validated VIDEO file 'Screen Recording 2026-06-08 104903.mp4' → N/A px, 12539.77 KB
+2026-06-08 15:52:18 | INFO     | app.utils.image_pipeline | Video Compression START | original=12.25 MB
+2026-06-08 15:52:18 | INFO     | app.utils.image_pipeline | Executing video compression: C:\Users\dell\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.exe -i C:\Users\dell\AppData\Local\Temp\tmpj3esw4qk.tmp -vcodec libx264 -crf 28 -preset fast -acodec aac -strict experimental -y C:\Users\dell\AppData\Local\Temp\tmpj3esw4qk.tmp.mp4
+2026-06-08 15:52:22 | INFO     | app.utils.image_pipeline | Video Compression END | final=0.06 MB | reduction=99.5%
+2026-06-08 15:52:22 | INFO     | app.utils.image_pipeline | Saved media → C:\Users\dell\Documents\CMS\image_pipeline\storage\2d07396d-3da5-43d6-94fa-55ea38625cfc\2d07396d-3da5-43d6-94fa-55ea38625cfc_1780914142909.mp4 (61104 bytes)
+2026-06-08 15:52:22 | INFO     | app.services.gallery_service | ADDED | website_id=2d07396d-3da5-43d6-94fa-55ea38625cfc | file=2d07396d-3da5-43d6-94fa-55ea38625cfc_1780914142909.mp4 | size=59.67 KB | url=http://localhost:8703/media/2d07396d-3da5-43d6-94fa-55ea38625cfc/2d07396d-3da5-43d6-94fa-55ea38625cfc_1780914142909.mp4
+2026-06-08 15:52:22 | INFO     | werkzeug | 192.168.1.118 - - [08/Jun/2026 15:52:22] "PUT /gallery HTTP/1.1" 200 -
